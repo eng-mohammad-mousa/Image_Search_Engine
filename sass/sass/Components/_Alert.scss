@@ -1,0 +1,13 @@
+div:where(.swal2-container) div:where(.swal2-popup) {
+    background-color: white !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    padding-left: 30px;
+    padding-right: 30px;
+   @extend %btn;
+
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus{
+    box-shadow:none !important;
+}

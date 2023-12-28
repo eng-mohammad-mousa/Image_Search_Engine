@@ -1,0 +1,17 @@
+%btn {
+    font-weight: bold;
+    background-color: $mc !important;
+    color: #fff;
+    text-align: center;
+
+    font-size: 1rem;
+
+    @media screen and (min-width:768px) {
+        font-size: 1.2rem;
+    }
+
+
+    &:hover {
+        background: rgba($mc, .9) !important;
+    }
+}
