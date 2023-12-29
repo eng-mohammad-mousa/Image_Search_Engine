@@ -34,7 +34,7 @@ const getImages = (apiURL) => {
         else if (data.photos.length == 0 && data.page > 1) {
             Swal.fire({
                 title: "Failed To Load More Images!",
-                text: "The displayed images are currently the only available ones.",
+                text: "Currently, the displayed images are the only ones available.",
                 icon: "error",
                 confirmButtonText: 'Ok',
                 allowOutsideClick: false,
@@ -76,7 +76,7 @@ const loadMoreImages = () => {
     getImages(apiUrl);
 };
 const loadSearchImages = (e) => {
-    let val = searchInput.value;
+    let val = searchInput.value.replace(/\s+/g, ' ');
     if (val === "" || val == null || val.trim() == '')
         return searchTerm = null;
     if (e.key === "Enter" || e.target.id === 'searchButton') {
