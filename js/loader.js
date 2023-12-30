@@ -1,5 +1,5 @@
 "use strict";
-let x, loadingDiv = document.getElementById("loadingDiv");
+let x, loadingDiv = document.getElementById("loadingDiv"), body = document.querySelector("body");
 window.onload = function () {
     setTimeout(removeLoadingDiv, 300);
 };
@@ -13,6 +13,7 @@ function removeLoadingDiv() {
         else {
             clearInterval(fadeEffect);
             loadingDiv.remove();
+            body.style.overflowY = 'visible';
         }
     }, 30);
 }

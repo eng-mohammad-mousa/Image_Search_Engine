@@ -1,4 +1,6 @@
-let x: number, loadingDiv = document.getElementById("loadingDiv") as HTMLDivElement;
+let x: number,
+    loadingDiv = document.getElementById("loadingDiv") as HTMLDivElement,
+    body = document.querySelector("body") as HTMLBodyElement;
 
 window.onload = function (): void {
     setTimeout(removeLoadingDiv, 300);
@@ -15,6 +17,7 @@ function removeLoadingDiv(): void {
         } else {
             clearInterval(fadeEffect);
             loadingDiv.remove();
+            body.style.overflowY = 'visible';
         }
 
     }, 30);
