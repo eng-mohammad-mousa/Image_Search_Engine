@@ -35,7 +35,7 @@ Follow the steps below to run the Snake Game project:
 
 3. Open the `index.html` file in your preferred web browser. You can do this by double-clicking on the `index.html` file or right-clicking and selecting "Open With" your desired web browser.
 
-Now you should be able to play the  game by following these installation steps. Happy gaming!
+Now you should be able to search for images and explore the world of visual content by following these installation steps. Enjoy using the Image Search Engine!
 
 <br>
 
