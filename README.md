@@ -25,7 +25,7 @@ An image search engine built using TypeScript and styled with SCSS.
 
 ## Installation
 
-Follow the steps below to run the Snake Game project:
+Follow the steps below to run the project:
 
 1. Download or clone the project from the GitHub repository:
    ```
