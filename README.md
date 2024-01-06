@@ -1,6 +1,13 @@
 <h1><img src="img/logo.png" alt="logo" width="27" height="27"> Image Search Engine</h1>
 
 An image search engine built using TypeScript and styled with SCSS. 
+<br>
+It is a powerful application that allows users to search for images based on their keywords or tags. With the help of advanced algorithms and image recognition technology, users can easily find and discover a wide range of images. The app provides a seamless and intuitive user experience, making it easy for users to find the images they are looking for.
+
+<br>
+
+## Live Demo
+Experience the Image Search Engine live by visiting the following link: [Live Demo](https://eng-mohammad-mousa.github.io/Image_Search_Engine/)
 
 <br>
 
